@@ -4,28 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Home | Snehahsis Ratna</title>
 </head>
-<body>
+<body class="bg-gray-600">
     <!-- Navbar -->
-    <nav>
-        <div>
+    <nav class="flex  justify-evenly align-baseline   m-12 ">
+        <div class="">
             <p>SnehashisRatna</p>
         </div>
-        <div>
-            <img src="./assets/grinning-face-with-big-eyes_1f603.png" alt="SmileEmoji" srcset="">
-            <img src="./assets/smiling-face-with-sunglasses_1f60e.png" alt="smiling-face-with-sunglasses" srcset="">
-            <img src="./assets/face-with-tongue_1f61b.png" alt="tongueface" srcset="">
-            <img src="./assets/pleading-face_1f97a.png" alt="pleading-face" srcset="">
-        </div>
-        <div >
-            <img src="./SVG/Github.svg" alt="" srcset="">
-            <img src="./SVG/LinkedIN.svg" alt="" srcset="">
-            <img src="./SVG/Skype.svg" alt="" srcset="">
-            <img src="./SVG/Twitter.svg" alt="" srcset="">
-            <img src="./SVG/Instagram.svg" alt="" srcset="">
+        <div class="flex content-center space-x-3 px-5 py-3 rounded-full bg-gray-50 bg-opacity-20" id="navbar-menu">
+            <div class="rounded-full p-1 hover:bg-purple-500 hover:bg-opacity-70 ">
+                <img class="h-12 w-12" src="./assets/grinning-face-with-big-eyes_1f603.png" alt="SmileEmoji" srcset="">
+            </div>
+            <div class="rounded-full p-1 hover:bg-purple-500 hover:bg-opacity-70 ">                
+                <img class="h-12 w-12" src="./assets/smiling-face-with-sunglasses_1f60e.png" alt="smiling-face-with-sunglasses" srcset="">
+            </div>
+            
+            <div class="rounded-full p-1 hover:bg-purple-500 hover:bg-opacity-70 ">
+                <img class="h-12 w-12" src="./assets/face-with-tongue_1f61b.png" alt="tongueface" srcset="">
+            </div>
 
+            <div class="rounded-full p-1 hover:bg-purple-500 hover:bg-opacity-70 ">
+                <img class="h-12 w-12" src="./assets/pleading-face_1f97a.png" alt="pleading-face" srcset="">
+            </div>
+        </div>
+        <div class="flex align-baseline space-x-3" >
+            <img class="h-10 w-10" src="./SVG/Github.svg" alt="" srcset="">
+            <img class="h-10 w-10" src="./SVG/LinkedIN.svg" alt="" srcset="">
+            <img class="h-10 w-10" src="./SVG/Skype.svg" alt="" srcset="">
+            <img class="h-10 w-10" src="./SVG/Twitter.svg" alt="" srcset="">
+            <img class="h-10 w-10" src="./SVG/Instagram.svg" alt="" srcset="">
         </div>
     </nav>
 </body>
 </html>
+
+
+<!-- 
+    .navbar_menu:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    padding: 1px;
+    border-radius: 5.8rem;
+    background: linear-gradient(30deg, #ffffff24 60%, #9747FF);
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+            mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  
+  }
+  
+   -->
